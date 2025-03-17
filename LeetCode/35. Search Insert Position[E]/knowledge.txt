@@ -1,0 +1,4 @@
+## 復習時に見直すメモ
+https://leetcode.com/problems/search-insert-position/
+
+・O(log n) の計算量のサンプルコード
