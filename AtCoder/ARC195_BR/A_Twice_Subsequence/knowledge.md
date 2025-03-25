@@ -1,6 +1,6 @@
 ## 復習時に見直すメモ
 
-[問題リンク](https://atcoder.jp/contests/arc195/tasks/arc195_a)
+[問題リンク](https://atcoder.jp/contests/arc195/tasks/arc195_a)  
 [解説リンク](https://atcoder.jp/contests/arc195/editorial/12489)
 
 # A - Twice Subsequence
