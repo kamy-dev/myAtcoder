@@ -1,6 +1,6 @@
 # myAtcoder
 
-## 過去問学習(AtCoder & LeetCode)
+## DSA学習用Dir (AtCoder & LeetCode)
 
 ### 運用方針
 
