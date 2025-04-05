@@ -1,7 +1,7 @@
 ## 復習時に見直すメモ
 
 - [問題リンク](https://atcoder.jp/contests/arc195/tasks/arc195_b)
-- [解説リンク](https://atcoder.jp/contests/arc195/editorial/12489)
+- [解説リンク](https://www.youtube.com/watch?v=-PzCaRqlZBA&t=360s)
 
 ## 前提知識
 
