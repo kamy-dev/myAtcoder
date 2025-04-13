@@ -1,6 +1,6 @@
 # myAtcoder
 
-## DSA学習用Repo (AtCoder & LeetCode)
+## DSA 学習用 Repo (AtCoder & LeetCode & AOJ)
 
 ### 運用方針
 
