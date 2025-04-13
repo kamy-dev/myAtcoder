@@ -1,2 +1,4 @@
 # 仮想環境を無視
 .venv
+# vscode設定も不要
+.vscode
