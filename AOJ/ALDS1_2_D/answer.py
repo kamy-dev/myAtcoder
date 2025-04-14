@@ -1,7 +1,32 @@
-def main():
-    
+def insertionSort(A, n, g):
+    cnt=0
+    for i in range(g, n):
+        v = A[i]    # ここでA[i]の値をメモリに保持しておく。
+        j = i - g
+        while j >= 0 and A[j] > v:
+            A[j+g] = A[j]
+            j = j - g
+            cnt += 1
+        A[j+g] = v
+    return cnt
 
-    return
+def shellSort(A, n):
+    g = []
+    h = 1
+    while h <= n:
+        g.append(h)
+        h = 3*h+1
+    g.reverse()
+    m = len(g)
+    print(m)
+    print(' '.join(map(str, g)))
+    cnt = 0
+    for i in range(m):
+        cnt += insertionSort(A, n, g[i])
+    print(cnt)
+    print('\n'.join(map(str, A)))
 
 if __name__ == '__main__':
-    main()
+    n = int(input())
+    A = [int(input()) for _ in range(n)]
+    shellSort(A,n)
