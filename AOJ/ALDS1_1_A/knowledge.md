@@ -5,7 +5,7 @@ InsertionSort の問題
 
 ## point
 
-- range(n)で問題ない。i=0 の時、j=-1 となるが、問題ない。
+- range(n)で問題ない。i=0 の時、j=-1 となるが、問題ない。何故なら、jはint型。
 
 ## Insertion Sort の特徴
 

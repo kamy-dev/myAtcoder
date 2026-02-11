@@ -1,14 +1,6 @@
-import sys
-
-def main():
-    n = int(input())
-    A = [int(i) for i in input().split()]
-    print(f'nの参照カウント: {sys.getrefcount(n)}')
-    print(f'Aの参照カウント: {sys.getrefcount(A)}')
-    print(f'nのサイズ(byte): {sys.getsizeof(n)}')
-    print(f'Aのサイズ(byte): {sys.getsizeof(A)}')
-
-    for i in range(n):
+def insertion_sort(A: list[int], n: int) -> None:
+    print(*A)
+    for i in range(1, n):
         v = A[i]
         j = i-1
         while j>=0 and A[j] > v:
@@ -19,4 +11,8 @@ def main():
     return
 
 if __name__ == '__main__':
-    main()
+    n = int(input())
+    A = [int(i) for i in input().split()]
+    # もしくは、A = list(map(int, input().split())). わずかにmapのほうが早いらしいが誤差
+    insertion_sort(A, n)
+
