@@ -1,4 +1,4 @@
-def main():
+def main(n: int, SB: list[str], SS: list[str]) -> None:
     n = int(input())
     SB = input().split()
     SS = SB.copy()
@@ -25,7 +25,8 @@ def main():
     else:
         print("Not stable")
 
-    return
-
 if __name__ == '__main__':
-    main()
+    n = int(input())
+    SB = input().split()
+    SS = SB.copy()
+    main(n, SB, SS)

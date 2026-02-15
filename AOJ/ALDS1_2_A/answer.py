@@ -1,7 +1,4 @@
-def main():
-    n = int(input())
-    A = [int(i) for i in input().split()]
-
+def bubble_sort(A: list[int], n: int) -> None:
     flag = 1
     cnt = 0
 
@@ -14,7 +11,8 @@ def main():
                 cnt += 1
     print(*A)
     print(cnt)
-    return
 
 if __name__ == '__main__':
-    main()
+    n = int(input())
+    A = list(map(int, input().split()))
+    bubble_sort(A, n)

@@ -1,1 +1,3 @@
-## 復習時に見直すメモ
+# Review memo
+
+## Point

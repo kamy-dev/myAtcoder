@@ -1,9 +1,5 @@
-def main():
-    n = int(input())
-    A = [int(i) for i in input().split()]
-
+def selection_sort(A: list[int], n: int) -> None:
     cnt = 0
-
     for i in range(n):
         minj = i
         for j in range(i, n):
@@ -14,7 +10,8 @@ def main():
             cnt += 1   
     print(*A)
     print(cnt)
-    return
 
 if __name__ == '__main__':
-    main()
+    n = int(input())
+    A = [int(i) for i in input().split()]
+    selection_sort(A, n)

@@ -1,4 +1,4 @@
-def insertion_sort(A: list[int], n: int, g: int) -> int:
+def bubble_sort(A: list[int], n: int, g: int) -> int:
     cnt=0
     for i in range(g, n):
         v = A[i]    # ここでA[i]の値をメモリに保持しておく。
@@ -22,7 +22,7 @@ def shell_sort(A: list[int], n: int) -> None:
     print(' '.join(map(str, g)))
     cnt = 0
     for i in range(m):
-        cnt += insertion_sort(A, n, g[i])
+        cnt += bubble_sort(A, n, g[i])
     print(cnt)
     print('\n'.join(map(str, A)))
 

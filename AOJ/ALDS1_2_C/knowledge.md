@@ -1,9 +1,13 @@
 ## 復習時に見直すメモ
-安定ソートについて  
-[Link](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_2_C&lang=ja)
+
+安定なソートについて  
+https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_2_C&lang=ja
 
 ## Point
-- for i in range(n-1, i, -1)だと、iはn-1からi+1までの範囲となる。必ずrangeの第二引数(引数1津の場合はその値)の-1した値まで繰り返す。
+
+- `for i in range(n-1, i, -1)` だと、iはn-1からi+1までの範囲となる。降順の場合は、第二引数の `+1` した値まで。
+
 - Bubble Sortは必ず安定的なソートとなる理由は、隣接通しの比較であり、同じキーの要素は交換しない為である。  
+
 例えば、(3, 'A'), (1, 'D'), (2, 'B'), (3, 'C') の時、最初の(3, 'A')が右に交換されても、一番右の(3, 'C')は交換されない。  
 また、もし(3, 'A'), (1, 'D'), (2, 'B'), (3, 'C')の場合でも同様に、"元の順序が変更されない"ため安定的である。
