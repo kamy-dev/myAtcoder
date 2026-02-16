@@ -1,0 +1,5 @@
+# UNIX
+python3 answer.py < input.txt
+
+# Windows
+Get-Content input.txt | python answer.py
