@@ -1,20 +1,4 @@
-class Stack:
-    """
-    スタックデータ構造を実装するクラス
-    
-    Attributes:
-        head (int): スタックの先頭位置を示すインデックス
-        stack (list): スタックの要素を格納するリスト
-    """
-    def __init__(self):
-        self.head: int = 0
-        self.stack: list = []
-
-    def append(self, value):
-        self.stack.append(value)
-        self.head += 1
-
-    
+from collections import deque
 
 if __name__ == "__main__":
     line = list(input())

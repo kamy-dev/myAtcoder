@@ -19,4 +19,4 @@
 ## 参考資料
 
 - [ユークリッド互除法 証明](https://univ-juken.com/euclids-gozyoho#google_vignette)
--
+
