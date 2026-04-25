@@ -1,6 +1,6 @@
 # Review memo
 
-Binary Search - 二分探索
+## Binary Search - 二分探索
 https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/4/ALDS1_4_B
 
 ## Input
