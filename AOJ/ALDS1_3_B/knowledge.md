@@ -2,7 +2,7 @@
 
 ### Data structure
 
-Queue に関する基本問題  
+## Queue に関する基本問題  
 https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/3/ALDS1_3_B
 
 ## Point
@@ -15,7 +15,7 @@ https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/3/ALDS1_3_B
 
 - 今回は標準ライブラリを使わずに実装したが、実行時間が3.2sと遅い。  
   これは、Python標準ライブラリ `collection.deque` クラスを利用すると高速になる。  
-  理由は、dequeクラスで構成されたリストは、<b>双方向連結リスト</b> であるためである。
+  理由は、dequeクラスで構成されたリストは、**双方向連結リスト** であるためである。
 
 #### 参考
 
